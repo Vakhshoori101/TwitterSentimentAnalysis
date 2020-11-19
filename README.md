@@ -49,7 +49,7 @@ pip3 install --user virtualenv
 
 Create and activate virtual environment:
 ```
-py -m venv chessenv
+py -m venv twitterenv
 
 twitterenv\Scripts\activate.bat
 
