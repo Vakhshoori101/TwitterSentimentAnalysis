@@ -17,9 +17,9 @@ Python Latest Version Download:
 https://www.python.org/downloads/
 
 
-Change directories to chess folder.
+Change directories to twitter folder.
 ```
-cd /path/to/chess/folder/
+cd /path/to/twitter/folder/
 ```
 
 First off, create your virtual environment by entering the commands below...
@@ -33,9 +33,9 @@ pip3 install virtualenv
 
 Create and activate virtual environment:
 ```
-python3 -m venv chessenv
+python3 -m venv twitterenv
 
-source chessenv/bin/activate
+source twitterenv/bin/activate
 
 pip3 install -r requirements.txt
 ```
@@ -51,7 +51,7 @@ Create and activate virtual environment:
 ```
 py -m venv chessenv
 
-chessenv\Scripts\activate.bat
+twitterenv\Scripts\activate.bat
 
 pip3 install -r requirements.txt
 ```
@@ -61,12 +61,20 @@ Once you have got your venv activated, run the following command:
 
 #### Mac OSX / Linux
 ```
-python3 chess.py
+jupyter notebook
 ```
 
 #### Windows
 ```
-chess.py
+jupyter notebook
 ```
 
-Note: The Minimax AI will not work until you complete the code outlined in the video. But, you should try playing against the random AI to make sure that everything works.
+### Jupyter Notebook
+
+Once jupyter notebook is opening, it will list everything in the current directory where you ran "jupyter notebook". 
+
+Here is a tutorial of jupyter notebook as well: https://www.youtube.com/watch?v=HW29067qVWk
+
+Open up the "Twitter Classification Template" notebook and you are ready to follow along with the youtube video.
+
+Note: The Template will not work until you complete the code outlined in the video.
