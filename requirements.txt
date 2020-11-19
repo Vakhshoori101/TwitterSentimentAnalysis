@@ -1,0 +1,3 @@
+nltk
+jupyter notebook
+numpy
