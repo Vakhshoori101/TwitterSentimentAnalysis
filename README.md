@@ -71,7 +71,7 @@ jupyter notebook
 
 ### Jupyter Notebook
 
-Once jupyter notebook is opening, it will list everything in the current directory where you ran "jupyter notebook". 
+Once jupyter notebook is opened, it will list everything in the current directory where you ran "jupyter notebook". 
 
 Here is a tutorial of jupyter notebook as well: https://www.youtube.com/watch?v=HW29067qVWk
 
